@@ -1,0 +1,14 @@
+body{
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
