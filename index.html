@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona główna</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
     <meta name="description" content="Strona główna 40 Drużyny Wędrowniczej Ardenti Caelum w Zielonce"/>
     <meta name="keywords" content="40, Drużyna, Wędrownicza, Harcerze, Zielonka, Ardenti Caelum"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="jquery.scrollTo.min"></script>
     <script>
@@ -17,20 +18,45 @@
 
             // $('<id ktory przezcrolluje>').click(function() { $scrollTo($('<id do ktorego przezcrolluje>'), 1000); });
 
-                $(window).scroll(function(){
-                    if($(this).scrollTop()>600) $('.scrollup').fadeIn();
-                    else ('.scrollup').fadeOut();
-                }
-                );
-        }
+                $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+            }  
+		);
+
+        $(window).scroll(function(){
+		    if($(this).scrollTop()>100) $('.scrollup').fadeIn();
+		    else $('.scrollup').fadeOut();		
+	    }
         );
 
     </script>
 </head>
 <body>
-<a href="#" class="scrollup"></a>
+    <header>
+        <h1 class="logo">Strona główna WD40</h1>
 
-<article></article>
-    
+        <nav>
+
+            <ul class="main-menu">
+                <a href="#"><li>Zdjęcia</li></a>
+                <a href="#"><li>Kronika</li></a>
+                <a href="#"><li>Rozkazy</li></a>
+                <a href="#"><li>Wydarzenia</li></a>
+                <a href="#"><li>Kadra</li></a>
+                <a href="#"><li>Konstytucja</li></a>
+                <a href="#"><li>Kontakt</li></a>
+                <a href="#"><li>Jak do nas dołączyć</li></a>
+                <a href="#"><li>Składki</li></a>
+                <a href="#"><li>Kalendarz</li></a>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>test</main>
+
+
+
+    <a href="#" class="scrollup"></a>
+
 </body>
 </html>
