@@ -7,8 +7,30 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <meta name="description" content="Strona główna 40 Drużyny Wędrowniczej Ardenti Caelum w Zielonce"/>
     <meta name="keywords" content="40, Drużyna, Wędrownicza, Harcerze, Zielonka, Ardenti Caelum"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min"></script>
+    <script>
+
+        jQuery(function($){
+            //reset scrolla
+            $.scrolltTo(0);
+
+            // $('<id ktory przezcrolluje>').click(function() { $scrollTo($('<id do ktorego przezcrolluje>'), 1000); });
+
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>600) $('.scrollup').fadeIn();
+                    else ('.scrollup').fadeOut();
+                }
+                );
+        }
+        );
+
+    </script>
 </head>
 <body>
+<a href="#" class="scrollup"></a>
+
+<article></article>
     
 </body>
 </html>

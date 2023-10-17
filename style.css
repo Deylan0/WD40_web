@@ -3,12 +3,38 @@ body{
     color: #ffffff;
 }
 
-a:hover{
-    text-decoration: none;
+a:link{
     color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #92e57b;
 }
 
 a:visited{
     text-decoration: none;
     color: #ffffff;
+}
+
+a:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.scrollup{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    text-decoration: none;
+    background-image: url("img/up.png") no-repeat 0px 0px;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+article{
+    height: 1500px;
+    background-color: #92e57b;
 }
