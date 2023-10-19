@@ -28,14 +28,15 @@ a:active{
 }
 
 .scrollup{
-    width: 225px;
-    height: 225px;
-    position: fixed;
-    text-decoration: none;
-    background: url("img/up.png") no-repeat 0px 0px;
-    right: 70px;
-    bottom: 70px;
-    display: none;
+    width: 100px;
+	height: 100px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+    background-size: 100px 100px;
+	right: 50px;
+	bottom: 50px;
+	display: none;
 }
 
 h1.logo{
@@ -56,10 +57,11 @@ header{
     padding: 0;
 }
 
-nav{
+body > nav{
     background-color: #240053;
     text-align: center;
     position: sticky;
+    top: 0px;
 }
 
 .main-menu{
@@ -79,6 +81,19 @@ nav{
     padding-bottom: 10px;
 }
 
-main{
-    min-height: 1600px;
+#content{
+    text-align: center;
+    margin: 50px auto auto auto;
+    width: 60%;
+    min-height: 1000px;
+    float: left;
 }
+
+main nav{
+    margin: 50px auto auto auto;
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+

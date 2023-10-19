@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="jquery.scrollTo.min"></script>
+    <script src="jquery.scrollTo.min.js"></script>
     <script>
 
         jQuery(function($){
-            //reset scrolla
-            $.scrolltTo(0);
 
-            // $('<id ktory przezcrolluje>').click(function() { $scrollTo($('<id do ktorego przezcrolluje>'), 1000); });
+			//zresetuj scrolla
+			$.scrollTo(0);
+	
+            
 
-                $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
-            }  
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
 		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function(){
 
-        $(window).scroll(function(){
-		    if($(this).scrollTop()>100) $('.scrollup').fadeIn();
-		    else $('.scrollup').fadeOut();		
-	    }
-        );
-
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
     </script>
 </head>
 <body>
@@ -52,8 +54,20 @@
         </nav>
 
     </header>
-    <main>test</main>
+    <main>
 
+        <div id="content"></div>
+        <nav>
+
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>                
+            </ul>
+
+        </nav>
+
+    </main>
 
 
     <a href="#" class="scrollup"></a>
