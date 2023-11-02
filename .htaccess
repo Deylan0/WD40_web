@@ -6,4 +6,4 @@ Deny from all
 
 RewriteEngine on
 ### RewriteRule <Index-alias> index.html ###
-RewriteRule MainPage-WD40 index.html
+RewriteRule MainPage index.html
