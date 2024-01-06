@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="tutel"></div>
-        <div id="text">Wielki Tutel prosi o hasło:</div>
+        <div id="text"></div>
         <form></form>
     
 </body>
