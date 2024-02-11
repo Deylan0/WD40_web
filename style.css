@@ -1,6 +1,9 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+body{
     background-color: rgb(23, 23, 23,);
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -22,39 +25,18 @@ a:visited{
     color: #ffffff;
 }
 
-a:active{
-    text-decoration: none;
-    color: #ffffff;
+
+#logo{
+    width: 100px;
+    float: left;
 }
 
-.scrollup{
-    width: 75px;
-	height: 75px;
-	text-decoration: none;
-	background: url("img/up.png") no-repeat 0px 0px;
-	position: fixed;
-    background-size: 100px 100px;
-	right: 50px;
-	bottom: 100px;
-	display: none;
-}
-.logo{
-    text-align: center;
-    size: 100px;
+#title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
-
-h1.logo{
-    font-size: 50px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-top: 0px;
-    padding-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
 
 header{
     background-color: #0a0043;
@@ -66,8 +48,6 @@ header{
 header > nav{
     background-color: #240053;
     text-align: center;
-    position: sticky;
-    top: 0px;
 }
 
 .main-menu{
@@ -100,8 +80,8 @@ main{
 
 #secret_tutel{
     background-image: url(img/secret\ tutel.jpg);
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -114,14 +94,9 @@ main::before{
 }
 
 #content{
-    text-align: center;
-    margin: 30px 50px auto 50px;
-    width: auto;
+    margin: 30px 75px auto 75px;
     float: left;
-    width: 70%;
     font-size: 35px;
-    box-sizing: border-box;
-    height: auto;
 }
 
 
@@ -147,12 +122,13 @@ footer{
     width: 100%;
     background-color: #0a0043;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
 }
 
 #contact{
     float: left;
-    line-height: 25px;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 #constitution{
@@ -161,9 +137,11 @@ footer{
     padding: 15px;
     background-color: #ffffff;
     color: #000000;
+    line-height: 23px;
 }
 
 li{
     line-height: 30px;
+    list-style-position: inside;
 }
 

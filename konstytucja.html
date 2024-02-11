@@ -9,44 +9,25 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="jquery.scrollTo.min.js"></script>
-    <script>
-
-        jQuery(function($){
-
-			//zresetuj scrolla
-			$.scrollTo(0);
-	
-            
-
-			$('.scrollup').click(function() { $.scrollTo($('body'), 100); });
-		}
-		);
-		
-		//pokaż podczas przewijania
-		$(window).scroll(function(){
-
-			if($(this).scrollTop()>500) $('.scrollup').fadeIn();
-			else $('.scrollup').fadeOut();		
-		}
-		);
-    </script>
 </head>
 <body>
     <header>
-        <h1 class="logo"><a href="MainPage"><img src="img/Untitled.png" style="height: 10%; position: absolute; left: 3%; top: 0px;"></a>Konstytucja</h1>
+        <header>
+            <a href="MainPage"><img id="logo" src="img/Untitled.png"></a> <h1 id="title">Strona główna WD40</h1>
+            <div style="clear: both;"></div>
+        </header>
 
         <nav>
 
             <ul class="main-menu">
-                <a href="#"><li>Zdjęcia</li></a>
-                <a href="#"><li>Kronika</li></a>
-                <a href="#"><li>Rozkazy</li></a>
+                <a href="zdjecia.html"><li>Zdjęcia</li></a>
+                <a href="kornika.html"><li>Kronika</li></a>
+                <a href="rozkazy.html"><li>Rozkazy</li></a>
                 <a href="kadra.html"><li>Kadra</li></a>
                 <a href="konstytucja.html"><li>Konstytucja</li></a>
-                <a href="#"><li>Jak do nas dołączyć</li></a>
-                <a href="#"><li>Składki</li></a>
-                <a href="$"><li>wydarzenia</li></a>
+                <a href="jak_dolonczyc.html"><li>Jak do nas dołączyć</li></a>
+                <a href="skladki.html"><li>Składki</li></a>
+                <a href="wydarzenia.html"><li>wydarzenia</li></a>
             </ul>
 
         </nav>
@@ -155,7 +136,7 @@
                     <h4>- inne funkcje będą tworzone, obsadzane i definiowane w miarę potrzeby za zgodą i wiedzą Drużynowego</h4>
 
                     <ol><h3>Bratnie Słowo</h3></ol>
-                    <span style="line-height: 40px;">1. Bratnie Słowo sobie dajem,</br>
+                    <span style="line-height: 30px;">1. Bratnie Słowo sobie dajem,</br>
                     że pomagać będziem wzajem.</br>
                     Druh druhowi, druh nie druh.</br>
                     Hasło: znaj, czuj duch.</br></br>
@@ -195,8 +176,6 @@
 
     </footer>
 
-
-    <a href="#" class="scrollup"></a>
 
 </body>
 </html>

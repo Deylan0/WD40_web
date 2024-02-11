@@ -9,44 +9,25 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="jquery.scrollTo.min.js"></script>
-    <script>
-
-        jQuery(function($){
-
-			//zresetuj scrolla
-			$.scrollTo(0);
-	
-            
-
-			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
-		}
-		);
-		
-		//pokaż podczas przewijania
-		$(window).scroll(function(){
-
-			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
-			else $('.scrollup').fadeOut();		
-		}
-		);
-    </script>
 </head>
 <body>
     <header>
-        <h1 class="logo"><a href="MainPage"><img src="img/Untitled.png" style="height: 10%; position: absolute; left: 3%; top: 0px;"></a>  Strona główna WD40</h1>
+        <header>
+            <a href="MainPage"><img id="logo" src="img/Untitled.png"></a> <h1 id="title">Strona główna WD40</h1>
+            <div style="clear: both;"></div>
+        </header>
 
         <nav>
 
             <ul class="main-menu">
-                <a href="#"><li>Zdjęcia</li></a>
-                <a href="#"><li>Kronika</li></a>
-                <a href="#"><li>Rozkazy</li></a>
+                <a href="zdjecia.html"><li>Zdjęcia</li></a>
+                <a href="kornika.html"><li>Kronika</li></a>
+                <a href="rozkazy.html"><li>Rozkazy</li></a>
                 <a href="kadra.html"><li>Kadra</li></a>
                 <a href="konstytucja.html"><li>Konstytucja</li></a>
-                <a href="#"><li>Jak do nas dołączyć</li></a>
-                <a href="#"><li>Składki</li></a>
-                <a href="$"><li>wydarzenia</li></a>
+                <a href="jak_dolonczyc.html"><li>Jak do nas dołączyć</li></a>
+                <a href="skladki.html"><li>Składki</li></a>
+                <a href="wydarzenia.html"><li>wydarzenia</li></a>
             </ul>
 
         </nav>
@@ -54,24 +35,14 @@
     </header>
     <main>
 
-        <div id="content">Witaj na stronie głównej naszej dróżyny wędrowniczej pod nazwą Ardenti caelum. Znajdziesz tutaj wszystkie informacje na nasz temat. Życze miłego przeglądania.
-        </br><img src="img/everyone.png" style="height: 50%; padding: 15px;"></div>
-        <nav>
-
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>                
-            </ul>
-
-        </nav>
+        <div id="content">Witaj na stronie głównej naszej drużyny wędrowniczej pod nazwą Ardenti caelum. Znajdziesz tutaj wszystkie informacje na nasz temat. Życze miłego przeglądania.
+        </br><img src="img/everyone.png" style=" padding: 15px; display: block; margin-left: auto; margin-right: auto; width: 50%;"></div>
         <div style="clear: both;"></div>
         
 
     </main>
     <footer>
         <div id="contact">
-            Kontakt:<br>
             Drużynowa (Kasia Bilińska): <a href="mailto:wedrownicza40@gmail.com">wedrownicza40@gmail.com</a>   697 079 952 <br>
             Przyboczny (Michał Ufnal): 730 696 777 <br>
             Przyboczny (Michał Puchalski): 883 855 820 <br>
@@ -84,7 +55,6 @@
     </footer>
 
 
-    <a href="#" class="scrollup"></a>
 
 </body>
 </html>
