@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-color: rgb(23, 23, 23,);
     color: #ffffff;
@@ -10,6 +11,7 @@ body{
     font-size: 17px;
     box-sizing: border-box;
 }
+
 a:link{
     color: #ffffff;
     text-decoration: none;
@@ -24,6 +26,7 @@ a:visited{
     text-decoration: none;
     color: #ffffff;
 }
+
 
 
 #logo{
@@ -43,6 +46,9 @@ header{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+header header{
+    padding: 10px;
 }
 
 header > nav{
@@ -65,6 +71,10 @@ header > nav{
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.error {
+    color: #FF0000;
 }
 
 main{
@@ -97,6 +107,7 @@ main::before{
     margin: 30px 75px auto 75px;
     float: left;
     font-size: 35px;
+    text-align: center;
 }
 
 
