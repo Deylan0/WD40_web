@@ -11,15 +11,14 @@
 
         <div id="content">
             <?php
+            session_start();
                 $loginErr = "";
                 $login =  "";
-
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    if (empty($_POST["login"])) {
-                        $loginErr = "login is required";
-                    } else {
-                        $login = test_input($_POST["login"]);
-                    }
+            
+                if (empty($_POST["login"])) {
+                    $loginErr = "*login is required";
+                } else {
+                    $login = test_input($_POST["login"]);
                 }
 
                 function test_input($data) {
@@ -30,11 +29,9 @@
                 }
                 ?>
 
-            <form method="post" action="<?php echo htmlspecialchars("login.php");?>">
+            <form method="post" action="<?php echo htmlspecialchars("login");?>">
                 Login: <input type="text" name="login">
-                <span class="error"><?php if($login == "login is required"){
-                    echo *login is required
-                }?></span>
+                <span class="error"><?php echo $loginErr;?></span>
                 <input type="submit" name="submit" value="Submit">
             </form>
         </div>

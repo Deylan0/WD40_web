@@ -4,5 +4,4 @@
     $sql = "SELECT login FROM Logins;";
     $result = $conn->query($sql);
     $row = $result->fetch_all();
-    
 ?>

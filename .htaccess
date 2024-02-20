@@ -8,3 +8,4 @@ RewriteEngine on
 ### RewriteRule <Index-alias> index.html ###
 RewriteRule MainPage index.html
 RewriteRule login login.php
+RewriteRule loginForm loginForm.php
