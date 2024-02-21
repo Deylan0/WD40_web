@@ -8,4 +8,5 @@ RewriteEngine on
 ### RewriteRule <Index-alias> index.html ###
 RewriteRule MainPage index.html
 RewriteRule signin signin.php
-RewriteRule signinForm signinform.php
+RewriteRule SigninForm form.php
+RewriteRule IndexCzlonek index2.php

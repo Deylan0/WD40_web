@@ -1,3 +1,14 @@
+<?php
+
+	session_start();
+	
+	if (!isset($_SESSION['permission']))
+	{
+		header('Location: MainPage');
+		exit();
+	}
+	
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>

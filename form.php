@@ -26,9 +26,9 @@
             }
             ?>
 
-        <form method="post" action="<?php echo htmlspecialchars("logging.php");?>">
+        <form method="post" action="<?php echo htmlspecialchars("signin");?>">
             Login: <input type="text" name="login">
-            <span class="error"><?php echo $loginErr;?></span>
+            <span class="error"><?php echo isset($loginErr) ? $loginErr : ''; ?></span>
             <input type="submit" name="submit" value="Submit">
         </form>
     </div>
