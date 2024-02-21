@@ -6,11 +6,9 @@
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
     if($row["login"] == $login){
-        $_SESSION["permission"] = true;
-        header("Location: IndexCzlonek");
-        exit();
+        $_SESSION["permission"] = "true";
+        header("Location: signed");
     }else{
-        header("Location: signinForm");
-        exit();
+        header("Location: form.php");
     }
 ?>

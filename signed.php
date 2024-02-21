@@ -1,13 +1,10 @@
-<?php
+<?PHP
+    session_start();
 
-	session_start();
-	
-	if (!isset($_SESSION['permission']))
-	{
-		header('Location: MainPage');
-		exit();
-	}
-	
+    if (!(isset($_SESSION['permission']) && $_SESSION['permission'] != '')) {
+
+        header ("Location: mainPage");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -24,7 +21,7 @@
 <body>
     <header>
         <header>
-            <a href="MainPage"><img id="logo" src="img/Untitled.png"></a> <h1 id="title">Strona główna WD40</h1>
+            <a href="MainPage"><img id="logo" src="img/Untitled.png"></a> <h1 id="title">Strona główna WD40 Zalogowany</h1>
             <div style="clear: both;"></div>
         </header>
 
@@ -60,7 +57,6 @@
             Twórca Strony (Miłosz Obroślak): <a href="mailto:miloszobroslak6@gmail.com">miloszobroslak6@gmail.com</a> 727 935 980
         </div>
 
-        <a href="SigninForm"><div id="secret_tutel"></div></a>
         <div style="clear: both;"></div>
 
     </footer>

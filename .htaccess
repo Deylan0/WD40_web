@@ -6,7 +6,7 @@ Deny from all
 
 RewriteEngine on
 ### RewriteRule <Index-alias> index.html ###
-RewriteRule MainPage index.html
+RewriteRule mainPage index.html
 RewriteRule signin signin.php
-RewriteRule SigninForm form.php
-RewriteRule IndexCzlonek index2.php
+RewriteRule signinForm form.php
+RewriteRule signed signed.php
