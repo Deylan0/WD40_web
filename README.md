@@ -14,6 +14,8 @@ Pierwsza wersja ze stroną główną i ogólną koncepcją serwisu.
 Ogólna optymalizacja kodu
 ### v0.2.0-pre-alfa i 0.2.1-pre-alfa
 System Logowania się do serwisu
+### v0.2.2-pre-alfpha
+Strona z Kadrą oraz FAQ
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -31,3 +33,5 @@ First version with main page and general concept of site.
 General optimization of code
 ### v0.2.0-pre-alpha and 0.2.1-pre-alpha
 Login System
+### v0.2.2-pre-alfpha
+Faq and Karda Site
