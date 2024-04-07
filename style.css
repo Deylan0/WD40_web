@@ -17,16 +17,15 @@ a:link{
     text-decoration: none;
 }
 
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 a:hover{
     text-decoration: underline;
     color: #000000;
 }
-
-a:visited{
-    text-decoration: none;
-    color: #ffffff;
-}
-
 
 
 #logo{
@@ -104,23 +103,15 @@ main::before{
 }
 
 #content{
-    margin: 30px 75px auto 75px;
+    padding: 20px;
+    width: 100%;
     float: left;
     font-size: 35px;
     text-align: center;
 }
 
-
-main nav{
-    margin: 50px 5% auto auto;
-    width: auto;
-    float: right;
-    text-align: center;
-    padding: 10px;
-    background-color: #00000057;
-    border-radius: 15px;
-    padding: 20px;
-    box-sizing: border-box;
+.personel{
+    float: left;
 }
 
 main nav ul{

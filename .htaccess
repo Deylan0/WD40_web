@@ -10,3 +10,6 @@ RewriteRule mainPage index.html
 RewriteRule signin signin.php
 RewriteRule signinForm form.php
 RewriteRule signed signed.php
+RewriteRule konstytucja konstytucja.html
+RewriteRule kadra kadra.html
+RewriteRule faq faq.html
