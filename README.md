@@ -16,8 +16,6 @@ Ogólna optymalizacja kodu
 System Logowania się do serwisu
 ### v0.2.2-pre-alfpha
 Strona z Kadrą oraz FAQ
-### v0.2.2.1-pre-alpha
-mała przeróbka glównej nawigacji
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -37,5 +35,3 @@ General optimization of code
 Login System
 ### v0.2.2-pre-alfpha
 Faq and Karda Site
-### v0.2.2.1-pre-alpha
-small rework of main nav
