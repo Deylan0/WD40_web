@@ -8,12 +8,16 @@ Jest to oficjalna strona internetowa drużyny wędrowniczej w zielonce. Ma na ce
 Na tą chwile strona została napisana w html css oraz php.
 
 ## dziennik zmian
-### v0.1.0-pre-alfa
+### v0.1.0-pre-alpha
 Pierwsza wersja ze stroną główną i ogólną koncepcją serwisu.
-### v0.1.1-pre-alfa
+### v0.1.1-pre-alpha
 Ogólna optymalizacja kodu
-### v0.2.0-pre-alfa i 0.2.1-pre-alfa
+### v0.2.0-pre-alpha i 0.2.1-pre-alpha
 System Logowania się do serwisu
+### v0.2.2-pre-alfpha
+Strona z Kadrą oraz FAQ
+### v0.2.2.1-pre-alpha
+mała przeróbka glównej nawigacji
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -31,3 +35,7 @@ First version with main page and general concept of site.
 General optimization of code
 ### v0.2.0-pre-alpha and 0.2.1-pre-alpha
 Login System
+### v0.2.2-pre-alfpha
+Faq and Karda Site
+### v0.2.2.1-pre-alpha
+small rework of main nav
