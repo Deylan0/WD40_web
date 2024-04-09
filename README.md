@@ -18,6 +18,8 @@ System Logowania się do serwisu
 Strona z Kadrą oraz FAQ
 ### v0.2.2.1-pre-alpha
 przerobienie głównej nawigacji
+### v0.2.2.2-pre-alpha
+debbug
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -39,3 +41,5 @@ Login System
 Faq and Karda Site
 ### v0.2.2.1-pre-alpha
 main nav rework
+### v0.2.2.2-pre-alpha
+debbug
