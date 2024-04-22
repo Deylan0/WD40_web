@@ -1,11 +1,3 @@
-<?PHP
-    session_start();
-
-    if (!(isset($_SESSION['permission']) && $_SESSION['permission'] != '')) {
-
-        header ("Location: mainPage");
-    }
-?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -21,14 +13,12 @@
 <body>
     <header>
         <header>
-            <a href="MainPage"><img id="logo" src="img/Untitled.png"></a> <h1 id="title">Strona główna WD40 Zalogowany</h1>
+            <a href="mainPage"><img id="logo" src="img/Untitled.png"></a> <h1 id="title">Strona główna WD40</h1>
             <div style="clear: both;"></div>
         </header>
 
         <nav>
-
-        <nav>
-            <a href="info"><div class="menu">Informacje<br>szczegółowe</div></a>
+            <a href="info"><div class="menu">Informacje szczegółowe</div></a>
             <a href="zdjecia"><div class="menu">Zdjęcia</div></a>
             <a href="kronika"><div class="menu">Kronika</div></a>
             <a href="rozkazy"><div class="menu">Rozkazy</div></a>
@@ -38,15 +28,42 @@
             <div style="clear: both;"></div>
         </nav>
 
-        </nav>
-
     </header>
     <main>
-
-        <div id="content">Witaj na stronie głównej naszej drużyny wędrowniczej pod nazwą Ardenti caelum. Znajdziesz tutaj wszystkie informacje na nasz temat. Życze miłego przeglądania.
-        </br><img src="img/everyone.png" style=" padding: 15px; display: block; margin-left: auto; margin-right: auto; width: 50%;"></div>
+        <div id="maininfo">
+            <h1>Pełna nzwa drużyny:</h1>
+            40 Drużyna wędrownicza "Ardenti caelum"
+            <h1>Kadra:</h1>
+            <h2>Drużynowa:</h2>
+            pwd. Katarzyna Bilińska
+            <h2>Przyboczni:</h2>
+            pwd. Michał Ufnal <br>
+            dh Michał Puchalski
+            <h1>Adres Hufca:</h1>
+            ul. Literacka 20
+            05-220 Zielonka
+            <h1>Dane do faktury:</h1>
+            Chorągiew Stołeczna ZHP<br>
+            ul. Piaskowa 4<br>
+            01-067 Warszawa<br>
+            NIP 527-252-61-38
+            <h1>Kontakt:</h1>
+            <h2>nr telefonu:</h2>
+            697 079 952
+            <h2>email:</h2>
+            wedrownicza40@gmail.com
+        </div>
+        <div id="links">
+            <h1>Ważne linki:</h1>
+            <a href="bip.zhp.pl">bip zhp</a><br>
+            <a href="https://gkzhp.sharepoint.com/sites/zielonka">e-zielonka</a><br>
+            <a href="https://gkzhp.sharepoint.com/sites/zielonka2/">Zielonka Zespół</a>
+            <h2>Bez logowania:</h2>
+            <a href="https://forms.office.com/e/ssNj0SNKAy">Wniosek do rozkazu Komendantki Hufca</a><br>
+            <a href="https://forms.office.com/e/ajkcvpayrU">Zgłoszenie biwaku / Zwrotnie karta biwaku</a><br>
+            
+        </div>
         <div style="clear: both;"></div>
-        
 
     </main>
     <footer>
@@ -57,6 +74,7 @@
             Twórca Strony (Miłosz Obroślak): <a href="mailto:miloszobroslak6@gmail.com">miloszobroslak6@gmail.com</a> 727 935 980
         </div>
 
+        <a href="signinform"><div id="secret_tutel"></div></a>
         <div style="clear: both;"></div>
 
     </footer>

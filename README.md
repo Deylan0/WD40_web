@@ -20,6 +20,8 @@ Strona z Kadrą oraz FAQ
 przerobienie głównej nawigacji
 ### v0.2.2.2-pre-alpha
 debbug
+### v0.0.0-aplha
+info, faq, zdjecia w pracy
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -43,3 +45,5 @@ Faq and Karda Site
 main nav rework
 ### v0.2.2.2-pre-alpha
 debbug
+### v0.0.0-aplha
+info, faq, zdjecia in work

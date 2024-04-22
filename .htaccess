@@ -11,5 +11,5 @@ RewriteRule signin signin.php
 RewriteRule signinForm form.php
 RewriteRule signed signed.php
 RewriteRule konstytucja konstytucja.html
-RewriteRule kadra kadra.html
+RewriteRule info info.html
 RewriteRule faq faq.html
