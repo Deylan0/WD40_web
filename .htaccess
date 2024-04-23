@@ -13,3 +13,4 @@ RewriteRule signed signed.php
 RewriteRule konstytucja konstytucja.html
 RewriteRule info info.html
 RewriteRule faq faq.html
+RewriteRule zdjecia zdjecia.html

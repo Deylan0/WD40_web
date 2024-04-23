@@ -22,6 +22,8 @@ przerobienie głównej nawigacji
 debbug
 ### v0.0.0-aplha
 info, faq, zdjecia w pracy
+### v1.0.0-beta
+podstrona zdjęcia robiona
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -47,3 +49,5 @@ main nav rework
 debbug
 ### v0.0.0-aplha
 info, faq, zdjecia in work
+### v1.0.0-beta
+subpage zdjecia done

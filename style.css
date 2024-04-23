@@ -165,7 +165,8 @@ li{
     width: 50%;
     text-align: center;
 }
-img{
+.imgTile{
     float: left;
-    width: 50%;
+    width: 600px;
+    padding: 1%;
 }
