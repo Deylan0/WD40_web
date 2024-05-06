@@ -24,6 +24,8 @@ debbug
 info, faq, zdjecia w pracy
 ### v1.0.0-beta
 podstrona zdjęcia robiona
+### v1.0.1-beta
+przerobienie footera
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -51,3 +53,5 @@ debbug
 info, faq, zdjecia in work
 ### v1.0.0-beta
 subpage zdjecia done
+### v1.0.1-beta
+footer rework

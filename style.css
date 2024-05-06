@@ -100,7 +100,7 @@ main{
     position: relative;
 }
 
-#secret_tutel{
+#login{
     background-image: url(img/secret\ tutel.jpg);
     height: 50px;
     width: 50px;
@@ -122,7 +122,6 @@ main::before{
     font-size: 35px;
     text-align: center;
 }
-
 .personel{
     float: left;
 }
@@ -130,14 +129,15 @@ main::before{
 footer{
     width: 100%;
     background-color: #0a0043;
-    box-sizing: border-box;
-    padding: 10px;
+    text-align: center;
 }
 
-#contact{
+#copyright{
     float: left;
-    line-height: 20px;
-    font-size: 14px;
+    margin: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 #constitution{
@@ -148,9 +148,11 @@ footer{
     color: #000000;
     line-height: 23px;
 }
+
 li{
     list-style-position: inside;
 }
+
 #maininfo{
     float: left;
     padding: 20px; 
@@ -158,6 +160,7 @@ li{
     width: 50%;
     text-align: center;
 }
+
 #links{
     float: right;
     padding: 20px; 
@@ -165,6 +168,14 @@ li{
     width: 50%;
     text-align: center;
 }
+#hufiec{
+    float: right;
+    padding: 20px; 
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
 .imgTile{
     float: left;
     width: 600px;

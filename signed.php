@@ -28,12 +28,10 @@
         <nav>
 
         <nav>
-            <a href="info"><div class="menu">Informacje<br>szczegółowe</div></a>
+            <a href="mainPage"><div class="menu">Strona Główna</div></a>
+            <a href="info"><div class="menu">Informacje</div></a>
             <a href="zdjecia"><div class="menu">Zdjęcia</div></a>
-            <a href="kronika"><div class="menu">Kronika</div></a>
-            <a href="rozkazy"><div class="menu">Rozkazy</div></a>
             <a href="konstytucja"><div class="menu">Konstytucja</div></a>
-            <a href="wydarzenia"><div class="menu">wydarzenia</div></a>
             <a href="faq"><div class="menu">FAQ</div></a>
             <div style="clear: both;"></div>
         </nav>
@@ -50,13 +48,11 @@
 
     </main>
     <footer>
-        <div id="contact">
-            Drużynowa (Kasia Bilińska): <a href="mailto:wedrownicza40@gmail.com">wedrownicza40@gmail.com</a>   697 079 952 <br>
-            Przyboczny (Michał Ufnal): 730 696 777 <br>
-            Przyboczny (Michał Puchalski): 883 855 820 <br>
-            Twórca Strony (Miłosz Obroślak): <a href="mailto:miloszobroslak6@gmail.com">miloszobroslak6@gmail.com</a> 727 935 980
+        <div id="copyright">
+            <p>&copy; Miłosz Obroślak all rights reserved<br>Site Version: v1.0.1-beta</p>
         </div>
 
+        <a href="signinform"><div id="login"></div></a>
         <div style="clear: both;"></div>
 
     </footer>
