@@ -26,6 +26,8 @@ info, faq, zdjecia w pracy
 podstrona zdjęcia robiona
 ### v1.0.1-beta
 przerobienie footera
+### v1.0.1-beta
+małe zmiany dla uproszczenia kodu
 
 # WD40 Web
 * [what-app](#what-application-is-this)
@@ -55,3 +57,5 @@ info, faq, zdjecia in work
 subpage zdjecia done
 ### v1.0.1-beta
 footer rework
+### v1.0.1-beta
+small changes to simplifie code

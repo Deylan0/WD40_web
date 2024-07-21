@@ -177,7 +177,11 @@ li{
 }
 
 .imgTile{
-    float: left;
+    display: inline-block;
     width: 600px;
     padding: 1%;
+}
+
+#container{
+    height: 100vh;
 }
