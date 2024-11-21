@@ -1,4 +1,4 @@
-* [Polski]((PL)
+* [Polski](#PL)
 * [English](#ENG)
 # PL
 # WD40 Web
