@@ -1,6 +1,6 @@
 * [Polski](#(PL))
 * [English](#(ENG))
-# PL
+# (PL)
 # WD40 Web
 * [co to za aplikacja](#co-to-za-aplikacja)
 * [w czym napisana](#w-czym-napisana)
@@ -32,7 +32,7 @@ przerobienie footera
 ### v1.0.1-beta
 małe zmiany dla uproszczenia kodu
 
-# ENG
+# (ENG)
 # WD40 Web
 * [what-app](#what-application-is-this)
 * [what-written-in](#what-it-was-written-in)
