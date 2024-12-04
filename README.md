@@ -10,7 +10,7 @@ Jest to oficjalna strona internetowa drużyny wędrowniczej w zielonce. Ma na ce
 ## w czym napisana
 Na tą chwile strona została napisana w html css oraz php.
 
-### dziennik zmian
+## dziennik zmian
 ### v0.1.0-pre-alpha
 Pierwsza wersja ze stroną główną i ogólną koncepcją serwisu.
 ### v0.1.1-pre-alpha
