@@ -4,13 +4,13 @@
 # WD40 Web
 * [co to za aplikacja](#co-to-za-aplikacja)
 * [w czym napisana](#w-czym-napisana)
-* [Dziennik zmian](#dziennik-zmian)
+* [Dziennik zmian](##dziennik-zmian)
 ## co to za aplikacja
 Jest to oficjalna strona internetowa drużyny wędrowniczej w zielonce. Ma na celu pomoóc znaleść drużyne w internecie oraz zapewnić informacje i odpowiedzi na pytania na temat drużyny.
 ## w czym napisana
 Na tą chwile strona została napisana w html css oraz php.
 
-## dziennik zmian
+### dziennik zmian
 ### v0.1.0-pre-alpha
 Pierwsza wersja ze stroną główną i ogólną koncepcją serwisu.
 ### v0.1.1-pre-alpha
